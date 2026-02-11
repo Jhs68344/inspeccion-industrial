@@ -2,17 +2,20 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Inspección Industrial | Heladio Santiago</title>
 
-  <!-- SEO -->
-  <meta name="description" content="Servicios de inspección industrial y ensayos no destructivos (END): ultrasonido, líquidos penetrantes, inspección visual remota, soldaduras y tanques a presión.">
-  <meta name="keywords" content="inspección industrial, ensayos no destructivos, ultrasonido industrial, líquidos penetrantes, inspección visual, soldaduras, END">
+  <!-- SEO TITLE MEJORADO -->
+  <title>Inspección Industrial y Ensayos No Destructivos en Bogotá | Heladio Santiago</title>
+
+  <!-- SEO DESCRIPTION MEJORADA -->
+  <meta name="description" content="Inspección industrial y ensayos no destructivos (END) en Bogotá y Colombia: ultrasonido, líquidos penetrantes, inspección visual remota, soldaduras, termografía y tanques a presión. Informes técnicos con registro fotográfico.">
+
+  <meta name="keywords" content="inspección industrial, ensayos no destructivos, ultrasonido industrial, líquidos penetrantes, PT, inspección visual, soldaduras, END, Bogotá">
   <meta name="author" content="Heladio Santiago">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Inspección Industrial | Heladio Santiago">
-  <meta property="og:description" content="Especialistas en inspección industrial y END">
+  <meta property="og:title" content="Inspección Industrial y END | Heladio Santiago">
+  <meta property="og:description" content="Servicios especializados en inspección industrial y ensayos no destructivos en Bogotá y Colombia.">
   <meta property="og:type" content="website">
 
   <style>
@@ -45,28 +48,67 @@
       margin: 30px auto;
       background: #fff;
       padding: 30px;
-      border-radius: 8px;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
     }
 
-    h1, h2 {
+    h1, h2, h3 {
       color: #0b3c5d;
     }
 
+    /* BOTONES PRINCIPALES */
     .botones {
       margin: 20px 0;
     }
 
     .botones a {
       display: inline-block;
-      background: #e02424;
+      background: #0b3c5d;
       color: #fff;
       text-decoration: none;
       padding: 10px 16px;
       border-radius: 6px;
       margin: 6px 6px 6px 0;
       font-size: 14px;
+      font-weight: bold;
+      transition: 0.2s;
     }
 
+    .botones a:hover {
+      background: #145c85;
+      transform: translateY(-2px);
+    }
+
+    /* BLOQUE DESTACADO */
+    .destacado {
+      margin: 25px 0;
+      padding: 20px;
+      border-radius: 10px;
+      background: #e8f9f8;
+      border: 2px solid #3dd6d0;
+    }
+
+    .destacado p {
+      margin: 8px 0;
+      font-size: 15px;
+    }
+
+    .destacado a {
+      display: inline-block;
+      margin-top: 12px;
+      background: #0b3c5d;
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .destacado a:hover {
+      background: #145c85;
+    }
+
+    /* GALERÍA */
     .galeria {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -79,6 +121,7 @@
       border-radius: 8px;
       text-align: center;
       padding: 10px;
+      border: 1px solid #ddd;
     }
 
     .card img {
@@ -119,11 +162,12 @@
 
 <header>
   <img src="logo-heladio-santiago.png" alt="Heladio Santiago">
-  <div class="contacto">📞 316 872 6521</div>
+  <div class="contacto">📞 WhatsApp: 316 872 6521</div>
 </header>
 
 <main>
-  <h1>Servicios de inspección industrial</h1>
+  <h1>Servicios de Inspección Industrial y Ensayos No Destructivos (END)</h1>
+
   <p>
     En <strong>Heladio Santiago</strong> ofrecemos servicios especializados de
     <strong>inspección industrial</strong> y <strong>ensayos no destructivos (END)</strong>
@@ -131,6 +175,33 @@
   </p>
 
   <h2>Servicios disponibles</h2>
+
+  <!-- SERVICIO DESTACADO -->
+  <div class="destacado">
+    <h3>⭐ Servicio destacado: Líquidos Penetrantes (PT)</h3>
+
+    <p>
+      Ensayo no destructivo para detectar <strong>grietas, porosidad abierta y discontinuidades superficiales</strong>
+      en soldaduras y componentes metálicos.
+    </p>
+
+    <a href="../liquidos-penetrantes/">
+      Ver página completa de líquidos penetrantes →
+    </a>
+
+    <p style="margin-top:12px;">
+      📘 Guías técnicas:
+      <a href="../liquidos-penetrantes/procedimiento-liquidos-penetrantes.html">
+        Procedimiento PT
+      </a>
+      |
+      <a href="../liquidos-penetrantes/defectos-soldaduras-liquidos-penetrantes.html">
+        Defectos típicos en soldaduras
+      </a>
+    </p>
+  </div>
+
+  <!-- BOTONES SERVICIOS -->
   <div class="botones">
     <a href="../ultrasonido/">Ultrasonido</a>
     <a href="../liquidos-penetrantes/">Líquidos penetrantes</a>
@@ -141,6 +212,7 @@
   </div>
 
   <h2>Inspecciones realizadas</h2>
+
   <div class="galeria">
     <div class="card">
       <img src="ultrasonido-industrial.png" alt="Ultrasonido industrial">
@@ -162,10 +234,11 @@
       <p>Inspección de soldaduras</p>
     </div>
   </div>
+
 </main>
 
 <footer>
-  © 2026 Heladio Santiago – Inspección Industrial
+  © 2026 Heladio Santiago – Inspección Industrial y END en Bogotá
 </footer>
 
 <a class="whatsapp" href="https://wa.me/573168726521" target="_blank">
@@ -174,3 +247,4 @@
 
 </body>
 </html>
+
