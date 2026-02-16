@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jhs68344.github.io/inspeccion-industrial/sitemap.xml
